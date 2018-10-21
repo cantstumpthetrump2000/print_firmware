@@ -768,7 +768,7 @@ M666 X-0.39 Y0.00 Z-3.89
  *     But: `M851 Z+1` with a CLEARANCE of 2  =>  2mm from bed to nozzle.
  */
 #define Z_CLEARANCE_DEPLOY_PROBE   50 // Z Clearance for Deploy/Stow
-#define Z_CLEARANCE_BETWEEN_PROBES  5 // Z Clearance between probe points
+#define Z_CLEARANCE_BETWEEN_PROBES  20 // Z Clearance between probe points
 
 //
 // For M851 give a range for adjusting the Z probe offset
